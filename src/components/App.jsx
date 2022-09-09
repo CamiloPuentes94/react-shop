@@ -1,6 +1,6 @@
 import React from "react";
 // se importan los estilos
-import '../styles/global.scss'
+import '../styles/global.css'
 
 const App = () => {
   return(
