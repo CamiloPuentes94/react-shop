@@ -3,6 +3,9 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Layout from '../containers/Layout';
 import Login from '../containers/Login';
 import RecoveryPassword from '../containers/RecoveryPassword'
+
+import Home from '../pages/Home';
+import NotFound from "../pages/NotFound";
 // se importan los estilos
 import '../styles/global.css';
 
