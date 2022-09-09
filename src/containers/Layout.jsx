@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Layout = ({Children}) => {
+const Layout = ({children}) => {
   return (
-    <div className='Layout'>
-      {Children}
+    <div className="Layout">
+      {children}
     </div>
   );
 }
