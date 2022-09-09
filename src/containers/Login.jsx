@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Login.sccss';
+import '../styles/Login.scss';
 
 const Login = () => {
   return(
@@ -19,3 +19,5 @@ const Login = () => {
   </div>
   );
 }
+
+export default Login;
