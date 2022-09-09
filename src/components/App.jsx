@@ -1,10 +1,15 @@
 import React from "react";
+import Layout from '../containers/Layout';
+import Login from '../containers/Login';
 // se importan los estilos
-import '../styles/global.css'
+import '../styles/global.css';
+
 
 const App = () => {
   return(
-    <h1>Hola Mundo, Bienvenidos a mi casa</h1>
+    <Layout>
+      <Login />
+    </Layout>
   );
 }
 
