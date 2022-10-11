@@ -10,6 +10,7 @@
 	top: 60px;
 	right: 50px;
 	background-color: white;
+	animation: swipeLeftMenu 0.26s ease;
 }
 .Menu ul {
 	list-style: none;
@@ -37,3 +38,11 @@
 	margin-bottom: 20px;
 	display: inline-block;
 }
+@keyframes swipeLeftMenu {
+	0% {
+	width: 0;
+	}
+	100% {
+	width: 100px;
+	}
+  }

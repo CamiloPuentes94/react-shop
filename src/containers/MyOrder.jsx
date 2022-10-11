@@ -5,7 +5,7 @@ import AppContext from '@context/AppContext'
 
 import flechita from '@icons/flechita.svg'
 
-const MyOrder = () => {
+const MyOrder = ({toggleOrders, setToggleOrders}) => {
 	
 	const{state} = useContext(AppContext);
 
