@@ -48,7 +48,7 @@ const Header = () => {
       <div className="navbar-right">
         <ul>
           <li className="navbar-email" onClick={ handleToggle }>
-            platzi@example.com
+            React-Shop
           </li>
           <li 
             className="navbar-shopping-cart" 
