@@ -3,7 +3,7 @@ import '@styles/Header.scss';
 import Menu from '@components/Menu'
 
 import icon_menu from'@icons/icon_menu.svg';
-import logo from '@logos/logo_yard_sale.svg';
+import logo_yard_sale from '@logos/logo_yard_sale.svg';
 import icon_shopping_cart from '@icons/icon_shopping_cart.svg';
 
 
@@ -19,7 +19,7 @@ const Header = () => {
     <nav>
       <img src={icon_menu} alt="menu" className="menu" />
       <div className="navbar-left">
-        <img src={logo} alt="logo" className="nav-logo" />
+        <img src={logo_yard_sale} alt="logo" className="nav-logo" />
         <ul>
           <li>
             <a href="/">All</a>
