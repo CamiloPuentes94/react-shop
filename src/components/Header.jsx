@@ -26,22 +26,22 @@ const Header = () => {
         <img src={logo_yard_sale} alt="logo" className="nav-logo" />
         <ul>
           <li>
-            <a href="/">All</a>
+            <a href="/react-shop">All</a>
           </li>
           <li>
-            <a href="/">Clothes</a>
+            <a href="/react-shop">Clothes</a>
           </li>
           <li>
-            <a href="/">Electronics</a>
+            <a href="/react-shop">Electronics</a>
           </li>
           <li>
-            <a href="/">Furnitures</a>
+            <a href="/react-shop">Furnitures</a>
           </li>
           <li>
-            <a href="/">Toys</a>
+            <a href="/react-shop">Toys</a>
           </li>
           <li>
-            <a href="/">Others</a>
+            <a href="/react-shop">Others</a>
           </li>
         </ul>
       </div>

@@ -24,7 +24,7 @@ const App = () => {
       <BrowserRouter basename="/react-shop">
         <Layout>
           <Routes>
-            <Route path="/" element={<Home/>} />
+            <Route path="/react-shop" element={<Home/>} />
             <Route path="/login" element={<Login/>} />
             <Route path="/password-recovery" element={<PasswordRecovery/>} />
             <Route path="/send-email" element={<SendEmail/>} />
