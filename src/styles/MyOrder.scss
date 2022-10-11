@@ -1,6 +1,8 @@
 @import 'vars';
 
 .MyOrder {
+	overflow: scroll;
+	max-height: 400px;
 	width: 360px;
 	padding: 24px;
 	box-sizing: border-box;
